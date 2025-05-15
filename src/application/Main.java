@@ -20,7 +20,7 @@ public class Main extends Application {
         Group root = new Group();
         Scene scene = new Scene(root, Color.GREY);
 
-        Image icon = new Image("as_logo.png");
+        Image icon = new Image("aso_logo.png");
         stage.getIcons().add(icon);
         stage.setTitle("ASO Calculator");
 
