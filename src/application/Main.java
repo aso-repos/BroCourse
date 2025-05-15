@@ -24,6 +24,12 @@ public class Main extends Application {
         stage.getIcons().add(icon);
         stage.setTitle("ASO Calculator");
 
+        stage.setWidth(340);
+        stage.setHeight(500);
+        stage.setResizable(false);
+
+
+
 
         stage.setScene(scene);
         stage.show();
